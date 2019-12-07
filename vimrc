@@ -1,11 +1,11 @@
 "==========================================
-" Author:  wklken
-" Version: 9.2
-" Email: wklken@yeah.net
+" Author:  wklken (wklken@yeah.net)
+" Maintainer: the-eric-kwok (erickwok404@gmail.com)
+" Version: 9.3
 " BlogPost: http://www.wklken.me
 " ReadMe: README.md
 " Donation: http://www.wklken.me/pages/donation.html
-" Last_modify: 2018-10-17
+" Last_modify: 2019-12-7
 " Sections:
 "       -> Initial Plugin 加载插件
 "       -> General Settings 基础设置
