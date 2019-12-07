@@ -1,21 +1,21 @@
-k-vim
+k-vim forked from wklken/k-vim
 =======================
 
 
-> VERSION: 9.2
+> VERSION: 9.3
 
-> LAST_UPDATE_TIME: 2017-07-29
+> LAST_UPDATE_TIME: 2019-12-07
 
-> 本次更新: 小版本更新, 支持vim8异步语法检查
+> 本次更新: 将 :w!! 命令更改为 :Wq 命令，使用体验更好了
 
-详细 [更新日志](https://github.com/wklken/k-vim/wiki/UPDATE_LOG)
+详细 [更新日志](https://github.com/the-eric-kwok/k-vim/wiki/Update_Log)
 
 # 目标
 
 > Just a Better Vim Config. Keep it Simple.
 
 
-**PS**: 服务器端无插件`k-vim`简化版本(curl直接设置vimrc即可)[vim-for-server](https://github.com/wklken/vim-for-server)
+**PS**: 服务器端无插件`k-vim`简化版本(curl直接设置vimrc即可)[vim-for-server](https://github.com/the-eric-kwok/vim-for-server)
 
 **PPS**: 一份tmux配置 [k-tmux](https://github.com/wklken/k-tmux)
 
@@ -41,7 +41,7 @@ molokai主题
 ### 1. clone 到本地
 
 ```
-git clone https://github.com/wklken/k-vim.git
+git clone https://github.com/the-eric-kwok/k-vim.git
 ```
 
 
@@ -268,7 +268,7 @@ ctrl+n    相对/绝对行号切换
     4. 命令行模式 ctrl+a/e 到开始结尾
     5. <和> 代码缩进后自动再次选中, 方便连续多次缩进, esc退出
     6. 对py文件，保存自动去行尾空白，打开自动加行首代码
-    7. 'w!!'强制保存, 即使readonly
+    7. **'Wq'用sudo来保存**（巨好用）
     8. 去掉错误输入提示
     9. 交换\`和', '能跳转到准确行列位置
     10. python/ruby 等, 保存时自动去行尾空白
