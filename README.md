@@ -41,7 +41,7 @@ molokai主题
 ### 1. clone 到本地
 
 ```
-git clone https://github.com/the-eric-kwok/k-vim.git
+git clone https://github.com/the-eric-kwok/k-vim.git ~/.k-vim
 ```
 
 
@@ -102,7 +102,7 @@ npm install -g eslint eslint-plugin-standard eslint-plugin-promise eslint-config
 # 会进入安装插件的列表，一安装是从github clone的，完全取决于网速, 之后会自动编译 YCM, 编译失败的话需要手动编译, 有问题见YCM文档
 # 如果发现有插件安装失败 可以进入vim, 执行`:PlugInstall'
 
-cd k-vim/
+cd ~/.k-vim/
 sh -x install.sh
 ```
 
